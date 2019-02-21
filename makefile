@@ -1,0 +1,2 @@
+all:
+	g++ -std=c++1y *.cpp *.h ./commands/*.cpp ./commands/*.h ./commands/vars/*.cpp ./commands/vars/*.h ./conditions/*.cpp ./conditions/*.h ./expression/*.cpp ./expression/*.h ./expression/arithmeticExpressions/*.cpp ./expression/arithmeticExpressions/*.h ./expression/booleanExpressions/*.cpp ./expression/booleanExpressions/*.h ./factory/*.cpp ./factory/*.h ./maps/*.cpp ./maps/*.h ./reader/*.cpp ./reader/*.h ./shuntingYard/*.cpp ./shuntingYard/*.h -Wall -pthread
